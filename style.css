@@ -1,0 +1,33 @@
+#container
+{
+    display: flex;
+    justify-content: center;
+    
+}
+#toggle
+{
+    width: 60px;
+    height: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+h1{
+    
+    line-height: 100px;
+    
+}
+
+#toogle-ball
+{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+@keyframes ball
+{
+    100%
+    {
+        transform: translateX(15px);
+    }
+}
